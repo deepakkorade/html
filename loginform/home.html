@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login and Registration Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body class="header">
+    <div class="nav-menu">
+        <h1 class="logo">Logo</h1>
+        <span class="navbar-toggler">
+            <i class="fas fa-bars navbar-toggler-icon"></i>
+        </span>
+        <ul class="navbar-menu">
+            <li><a href="#" class="link active">Home</a></li>
+            <li><a href="about.html" class="link">About</a></li>
+            <li>
+                <a href="#" class="link">Pages<i class="fas fa-caret-down"></i></a>
+                <div class="dropdown-menu">
+                    <ul>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Teams</i></a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#" class="link">Blog</a></li>
+            <li><a href="#" class="link">Contact Us</a></li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0 "/>
+            </svg>
+            <div class="search-container">
+              <div class="search-box">
+                <i class="bi bi-search"></i>
+                  <span class="search-icon">
+                    </span>
+                  <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchItems()">
+              </div>
+          </div>
+            <li><a href="signin.html">Log out</a></li>
+        </ul>
+        
+    <script>
+        document.querySelector('.navbar-toggler').addEventListener('click', function() {
+            document.querySelector('.navbar-menu').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
