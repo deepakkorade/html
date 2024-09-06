@@ -1,0 +1,155 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    text-align: center;
+    background-image: url("one.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  h2 {
+    text-align: center;
+    margin-top: 200px;
+    color: aliceblue;
+  }
+  form {
+    margin-top: 90px;
+  }
+  
+  .nav-menu {
+    background-color: rgba(218, 177, 100, 0.522);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5%;
+    border-radius: 10px;
+    background-origin: border-box;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+  }
+  .nav-menu ul {
+    width: fit-content;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-menu ul li {
+    padding: 10px 30px;
+    position: relative;
+  }
+  .logo {
+    color: aliceblue;
+  }
+  .nav-menu ul li a {
+    text-decoration: none;
+    color: rgba(240, 236, 236, 0.93);
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    transition: all 0.3s;
+  }
+  .nav-menu ul li button {
+    padding: 5px 20px;
+    border-radius: 20px;
+    display: flex;
+  }
+  .nav-menu ul li button:hover {
+    background-color: rgb(202, 219, 234);
+  }
+  .nav-menu ul li a:hover {
+    background-color: white;
+    color: black;
+    input-security:drop-shadow(10px 10px 10px  rgb(87,87,87));
+  }
+  .dropdown-menu {
+    display: none;
+  }
+  
+  .nav-menu ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgba(0, 0, 0, 0.918);
+  }
+  .dropdown-menu ul {
+    display: block;
+    margin: 10px;
+  }
+  .dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+  }
+  .fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+  input {
+    border-radius: 15px;
+    text-align: center;
+    padding: 7px;
+  }
+  input:hover {
+    padding: 10px;
+  }
+  button {
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+  }
+  button:hover {
+    padding: 12px 25px 12px 25px;
+  }
+  .nav-menu .logo {
+    float: left;
+    font-size: 24px;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-menu ul li {
+    float: left;
+  }
+  
+  .nav-menu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  .nav-menu ul li a:hover {
+    background-color: #575757;
+  }
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+  }
+  .dropdown-menu ul {
+    display: block;
+  }
+  .sing-in a {
+    text-decoration: none;
+  }
+  button a {
+    text-decoration: none;
+    color: black;
+  }
+  
